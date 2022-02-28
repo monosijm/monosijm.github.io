@@ -1,1 +1,3 @@
+https://github.com/monosijm/monosijm.github.io.git
+
 https://mmaitra@bitbucket.org/mmaitra/mmaitra.bitbucket.io.git
