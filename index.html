@@ -2,6 +2,8 @@
 <head>
     <title style="color: black;"> Monosij Maitra </title>
     <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1;"/> <!--user-scalable=0; doesn't work-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <style>
     body {
         background:white;
@@ -28,7 +30,7 @@
 	tr.border_bottom td {border-bottom:1pt solid #977D6B;}
     p.big {line-height: 1.6;}
     img {display: block;}
-    
+
     #myBtn {
         display: none;
         position: fixed;
@@ -70,43 +72,45 @@
 <body link="#004C99" alink="#FF0000">
     <br><br>
     <div class="content">
-        <img style="border: 2px solid #eba63f; float: left; margin-top: -28px; margin-left: 0px;" src="dp-new.jpeg" height="280" width=auto;>
-        <h1> Monosij Maitra</h1>
-        <h4 style="line-height: 20px"> Email: {first name} AT <font color="#874947">cse.iitkgp.ac.in</font> / {first name.last name} AT <font color="#3e65cf">g</font><font color="#c71610">m</font><font color="#D44638">a</font><font color="#f2a60c">i</font><font color="#08851b">l</font>.com <!--(gmail (DOT) com / rub (DOT) de)--></h4>
+        <img style="border: 2px solid #eba63f; float: left; margin-top: -28px; margin-left: 0px;" src="dp-new.jpeg" height=326px width=275px;>
+        <h1 style="margin-bottom: -10px"> Monosij Maitra</h1>
+        <h4 style="line-height: 12px"> Email: {first name} AT <font color="#874947">cse.iitkgp.ac.in</font> / {first name.last name} AT <font color="#3e65cf">g</font><font color="#c71610">m</font><font color="#D44638">a</font><font color="#f2a60c">i</font><font color="#08851b">l</font>.com </h4>
         <h4 style="line-height: 2px">Office: Room 307, CSE Main Building, IIT Kharagpur.<!--MC 0.20, Universitätsstra&beta;e 150, 44801 Bochum.--></h4>
         <p class="Big">
             <!--#EC7063, #4169E1, #E74C3C-->
-             
             I work as a faculty <!--will be joining shortly as a faculty--> in
             the <a href="https://cse.iitkgp.ac.in/" target="_blank"> CSE department</a> at <a href="https://www.iitkgp.ac.in/department/CS/faculty/cs-monosij" target="_blank">IIT Kharagpur</a>.
             
-            Before, I worked as a postdoc jointly with <a href="https://informatik.rub.de/kiltz/" target="_blank"> Eike Kiltz</a> (<a href="https://informatik.rub.de/crypto/" style="text-decoration:" target="_blank">Ruhr-Universität Bochum</a>) and <a href="https://sites.google.com/view/giuliomalavolta/" target="_blank"> Giulio Malavolta</a> (<a href="https://www.mpi-sp.org/" style="text-decoration: ;" target="_blank">Max Planck Institute for Security and Privacy</a>). 
+            Prior to joining IIT Kharagpur, I worked as a postdoc jointly with <a href="https://informatik.rub.de/kiltz/" target="_blank"> Eike Kiltz</a> (at <a href="https://informatik.rub.de/crypto/" style="text-decoration:" target="_blank">Ruhr-Universität Bochum</a>) and <a href="https://sites.google.com/view/giuliomalavolta/" target="_blank"> Giulio Malavolta</a> (at <a href="https://www.mpi-sp.org/" style="text-decoration: ;" target="_blank">Max Planck Institute for Security and Privacy</a>). 
             
             <!--I am currently working as a postdoc with a joint appointment at <a href="https://informatik.rub.de/crypto/" style="text-decoration:" target="_blank"> Ruhr-Universität Bochum</a> (with <a href="https://informatik.rub.de/kiltz/" target="_blank"> Eike Kiltz</a>) and <a href="https://www.mpi-sp.org/" style="text-decoration: ;" target="_blank"> Max Planck Institute for Security and Privacy</a> (with <a href="https://sites.google.com/view/giuliomalavolta/" target="_blank"> Giulio Malavolta</a>).-->
             
-            Prior to that, I also worked as a postdoc with <a href="https://www.informatik.tu-darmstadt.de/cac/cac/team_cac/sebastian_faust_cac/index.en.jsp" style="color: #361999;" target="_blank"> Sebastian Faust</a> (<a href="https://www.informatik.tu-darmstadt.de/cac/cac/index.en.jsp" style="color: #361999;" target="_blank">TU Darmstadt</a>).
+            Before that, I also worked as a postdoc with <a href="https://www.informatik.tu-darmstadt.de/cac/cac/team_cac/sebastian_faust_cac/index.en.jsp" style="color: #361999;" target="_blank"> Sebastian Faust</a> (at <a href="https://www.informatik.tu-darmstadt.de/cac/cac/index.en.jsp" style="color: #361999;" target="_blank">TU Darmstadt</a>).
             
-            Earlier, I received my PhD in <a href="http://www.cse.iitm.ac.in" target="_blank">CSE</a> from <a href="https://www.iitm.ac.in/" style="color:#361999" target="_blank">IIT Madras</a> and thereafter worked briefly as a research staff at <a href="https://www.cse.iitm.ac.in/~ccd/" style="color: #361999;" target="_blank">CCD@IITM</a>.
+            Earlier, I received a PhD in <a href="http://www.cse.iitm.ac.in" target="_blank">CSE</a> from <a href="https://www.iitm.ac.in/" style="color:#361999" target="_blank">IIT Madras</a> and then worked as a research staff at <a href="https://www.cse.iitm.ac.in/~ccd/" style="color: #361999;" target="_blank">CCD@IITM</a>.
             
             During PhD, I was very fortunate to be advised by <a href="http://www.cse.iitm.ac.in/~shwetaag/index.html" style="color:#361999" target="_blank">Shweta Agrawal</a>.
-            
-            <font color="#c1436d">Feel free to email for my detailed CV.</font></p>
-        <ul id="menu" style="padding-left:287px">
-            <li id="top"><font color="#c1436d">|</font><a href="#Research">Research Interests </a></li><font color="#c1436d">|</font>
-            <li><a href="#Publications"> Publications/Manuscripts/Patents </a></li><font color="#c1436d">|</font>
+        </p>    
+        <p class="Big">    
+            My research interests are broadly in the theory and applications of public-key cryptography with a focus on computing on encrypted/authenticated data and building tools to enable distributed trust.
+            <!--<font color="#c1436d">Feel free to email for my detailed CV.</font>-->
+        </p>
+        <ul id="menu" style="padding-left:290px">
+            <!--<li id="top"><font color="#c1436d">|</font><a href="#Research">Research Interests </a></li><font color="#c1436d">|</font>-->
+            <li><a href="#Publications"> Research </a></li><font color="#c1436d">|</font>
             <li><a href="#Service"> Professional </a></li><font color="#c1436d">|</font>
             <li><a href="#Teaching"> Teaching </a></li><font color="#c1436d">|</font>
+            <li><a href="#Misc"> Miscellaneous </a></li><font color="#c1436d">|</font>
         </ul>
         <br>
         <hr>
         
-        <h2 id="Research" style="margin-top: 30px;">Research Interests</h2>&nbsp;
+        <!--<h2 id="Research" style="margin-top: 30px;">Research Interests</h2>&nbsp;
 		
 		<p class="big" style="padding-left:0px; margin-top: -20px;"> My research interests are broadly in the theory and applications of public-key cryptography with a focus on computing on encrypted/authenticated data and building tools to enable distributed trust. 
-            <!--During PhD, I worked largely on functional encryption and attribute based encryption.-->
-        </p>
+        </p>-->
         
-        <h2 id="Publications" style="margin-top: 25px;">Publications/Manuscripts/Patents <a style="font-size: 18px; color: #1DA9A1; text-decoration: underline;" href="https://dblp.uni-trier.de/pers/hd/m/Maitra:Monosij" target="_blank">[DBLP]</a> <a style="font-size: 18px; color: #1DA9A1; text-decoration: underline;" href="https://scholar.google.com/citations?user=8XVPvXQAAAAJ&hl=en&oi=ao" target="_blank">[Google Scholar]</a></h2><!--7DA2A9-->
+        <h2 id="Publications" style="margin-top: 25px;">Research: Publications/Preprints/Patents <a style="font-size: 18px; color: #1DA9A1; text-decoration: underline;" href="https://dblp.uni-trier.de/pers/hd/m/Maitra:Monosij" target="_blank">[DBLP]</a> <a style="font-size: 18px; color: #1DA9A1; text-decoration: underline;" href="https://scholar.google.com/citations?user=8XVPvXQAAAAJ&hl=en&oi=ao" target="_blank">[Google Scholar]</a></h2><!--7DA2A9-->
 		
         <ul style="padding-left:15px">
             <li style="margin-top:10px;">
@@ -198,17 +202,21 @@
                 <ul style="margin-left: -20px">- ITCS 2021, PKC (2019, 2021, 2022, 2023, 2024), Indocrypt (17, 20, 22)</ul>
                 <ul style="margin-left: -20px">- SCN 2024, CANS 2024</ul>
             </li>
+        </ul>
+        </div>
+        <div class="acs" style="padding-left: 8px;padding-right: 8px;margin-top: 34px;"><hr width="1px;" size="144px" style="background: #eba63f;"></div>
+        <div class="acs"; style = "width:auto; height: auto">
+        <ul style="padding-left: 15px; padding-right: 10px;">
+            <li style="margin-top:2px;"><b>Volunteer</b>: Indocrypt 2017, TCC 2018.</li>
             <li style="margin-top:2px;"><b>Journal review</b>:
                 <ul style="margin-left: -20px">- Journal of Cryptography</ul>
                 <ul style="margin-left: -20px">- Design, Codes and Cryptography</ul>
                 <ul style="margin-left: -20px">- IEEE Transactions on Dependable and Secure Computing</ul>
                 <ul style="margin-left: -20px">- IEEE Transactions on Information Forensics and Security</ul>
             </li>
-            <li style="margin-top:2px;"><b>Student volunteer</b>: Indocrypt 2017, TCC 2018.</li>
-        </ul>
+        </ul>    
         </div>
-        <!--<div class="acs" style="padding-left: 12px;margin-top: 34px;"><hr width="1px;" size="185" style="background: #eba63f;"></div>
-        <div class="acs">
+        <!--<div class="acs">
             <ul style="padding-left:50px;">
                 <li style="margin-left: -23px;margin-top:5px; color:#2A3166; list-style-type: none"><b>Teaching Assistance @ IIT Madras</b></li>
                 <li style="margin-left: -6px;margin-top:4px;">Foundations of Cryptography</li>
@@ -234,9 +242,30 @@
         <ul style="padding-left: 15px; padding-right: 10px;">
             <li style="margin-top:2px;"><b>Semester-1, 2024-25 (CSE, IIT Kharagpur)</b>:
                 <ul style="margin-left: -20px">- <a href="" target="">CS60065: Cryptography and Network Security</a></ul>
-                <ul style="margin-left: -20px">- <a href="" target="">CS19003: Programming and Data Structures Lab</a> (Jointly with <a href="https://satcrypt.github.io/" target="_blank">Satrajit Ghosh</a>)</ul><br>
+                <ul style="margin-left: -20px">- <a href="" target="">CS19003: Programming and Data Structures Lab</a><br>&nbsp;&nbsp;(Jointly with <a href="https://satcrypt.github.io/" target="_blank">Satrajit Ghosh</a>)</ul><br>
             </li>
-            <br>
+        </ul>
+        </div>
+        <!--<div class="acs" style="padding-left: 20px;padding-right: 20px;margin-top: 34px;"><hr width="1px;" size="100px" style="background: #eba63f;"></div>
+        <div class="acs"; style = "width:auto; height: auto">
+        <ul style="padding-left: 20px; padding-right: 10px;">
+            <li style="margin-top:2px;"><b>Semester-2, 2024-25 (CSE, IIT Kharagpur)</b>:
+                <ul style="margin-left: -20px">- <a href="" target="">CS60065: Cryptography and Network Security</a></ul>
+                <ul style="margin-left: -20px">- <a href="" target="">CS19003: Programming and Data Structures Lab</a><br>&nbsp;&nbsp;(Jointly with <a href="https://satcrypt.github.io/" target="_blank">Satrajit Ghosh</a>)</ul><br>
+            </li>
+        </ul>
+        </div>-->
+        <div class="acs"; style = "width:auto; height: auto">
+        <ul style="padding-left: 15px; padding-right: 10px;">   
+            <!--<button type="button" class="btn btn-info" data-toggle="collapse in" data-target="demo">Prior Experience</button>
+            <div id="demo" class="collapse" style="display: none;">
+            <p class="Big">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            </div>-->
+            
+            
+            <p class="Big"></p>
             <hr style="margin-left: -13px;width: inherit">
             <li style="margin-top:2px"><b><font color="#E40C2B">Past (Autumn 2021):</font> Mentoring Assistance (CS, TU Darmstadt)</b>: Research in Cryptography</li>
             <li style="margin-top:2px;"><b><font color="#E40C2B">Past (2015 - 2020):</font> Teaching Assistance (CSE, IIT Madras)</b>
@@ -249,9 +278,17 @@
                 <ul style="margin-left: -20px">- Introduction to Programming &nbsp;&nbsp;|&nbsp;&nbsp; Data Structures and Algorithms</ul>
                 <ul style="margin-left: -20px">- Formal Languages and Automata Theory</ul>
             </li>
+            
         </ul><br>
             <hr style="margin-left: 0px;width: inherit">
-    </div>
-
+        </div>
+        
+        <h2 id="Misc" style="margin-top: 10px;">Miscellaneous</h2>
+        <div class = "acs"; style="width: auto; height: auto;"> 
+        (TBU)
+        <!--<ul style="padding-left: 15px; padding-right: 10px;">
+            <li style="margin-top:2px;">To be updated</li>
+        </ul>-->
+        </div>
 </body>
 </html>
