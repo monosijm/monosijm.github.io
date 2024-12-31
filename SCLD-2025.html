@@ -1,0 +1,144 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title style="color: black;"> Spring-2025: CS21202</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1;"/> <!--user-scalable=0; doesn't work-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    body {
+        background:white;
+    }
+    .vl {
+        border-left: .5px solid #874947;
+    }
+    .content {
+        max-width: 1050px;
+        min-width: 1050px;
+        margin: auto;
+        border-radius: 0px;
+        background: white;
+        padding: 50px;
+    }
+    h1 {margin-top: -30px; color: #1dabbf; font-family:"Palatino"; font-weight:lighter;}   
+	h2 {font-family:"Palatino"; font-weight:lighter;}
+    h2 {color: #2A3166; font-family:"Palatino"; font-weight:lighter;}
+    h4 {padding-left: 288px; color:#566573; font-family:"Palatino"; font-weight:lighter;}
+    body {background-image: url("bg2.png");}
+	p {text-align: justify; font-family:"Palatino"; line-height: 20px;font-size: 18px;}
+	a {text-decoration:none; color:#1d3dbf; font-family:"Palatino";}
+	li {line-height: 1.6; font-family:"Palatino";}
+	ul#menu li{display:inline;}
+	tr.border_bottom td {border-bottom:1pt solid #977D6B;}
+    p.big {line-height: 1.6;}
+    img {display: block;}
+
+    hr
+    {
+        display: block;
+        border: .5px solid #874947;/*#eba63f,#D5DBDB;#2A3166;*/
+        /*width: 100%;*/
+        width: 100%;
+        background-color transaparent;
+        margin-top: -35px;
+        /*margin-left: 156px;
+        margin-right: 10px;*/
+    }
+    div.acs {
+        display:inline-block;
+        vertical-align: top;
+        width:auto;
+        margin-top: -18px;
+    }
+    table, th, td {
+        font-family:"Garamond"; font-weight:lighter;
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+    th, td {
+        background-color: #EEEE;
+        text-align: center;
+        vertical-align: middle;
+    }
+    </style>
+</head>
+<body link="#004C99" alink="#FF0000">
+    <br><br>
+    <div class="content">
+        <h1 align=center> <font color="navy">CS21202:</font> Switching Circuits and Logic Design <font color="navy">[L-T-P: 3-1-0]</font> </h1>
+        
+        <h2 style="margin-top: 30px;color: navy;margin-bottom: 25px">Course Outline</h2><br>
+        
+        <ul style="margin-left:-43px;margin-top: -25px;">
+            <li style="margin-left: 18px;"><b>Number Systems:</b> Representation of unsigned and signed integers, 1's and 2's complement representation. Binary addition and subtraction. BCD and Gray codes. Error detection and correction using Hamming code.</li>
+            <li style="margin-left: 18px;"><b>Switching theory:</b> Boolean algebra, logic gates and logic families to implement gates, and switching functions, truth tables and switching expressions, functional completeness.</li>
+            <li style="margin-left: 18px;"><b>Minimization of Boolean Functions:</b> Minimization of completely and incompletely specified switching functions, Karnaugh map and Quine-McCluskey method, representation and manipulation of functions using BDDs, two-level and multi-level logic circuit synthesis.</li>
+            <li style="margin-left: 18px;"><b>Combinational Logic Circuits:</b> Multiplexer, Encoder, Decoder, Comparator. Half adder and full adder, Ripple-carry and Carry-lookahead adder. Realization of Boolean functions using NAND/NOR gates, Multiplexers, ROMs. Case studies.</li>
+            <li style="margin-left: 18px;"><b>Sequential Circuits:</b> Clocking and timing, Flip-flops, Latches, Counters and Shift registers. Finite-state machine model, Synthesis of synchronous sequential circuits, Minimization and State assignment. Asynchronous sequential circuits: basic concept, static and dynamic hazards.</li>
+            <li style="margin-left: 18px;"><b>D/A, A/D Converters: </b>Digital-to-Analog and Analog-to-Digital converters, Basic terminologies and design alternatives.</li>
+            <li style="margin-left: 18px;"><b>ASM Charts:</b> ASM charts: Representation of sequential circuits using ASM charts, synthesis of output and next state functions.</li>
+        </ul>
+        
+        <div class="acs" style="width: auto; height: auto;">
+            <h2 id="Research" style="margin-top: 40px;color: navy;">Course Logistics</h2><br>
+            <p class="big" style="padding-left:0px; margin-top: -20px; color: #1dabbf;margin-bottom: -10px;"> Venue </p>
+            <ul style="margin-left:-43px;margin-bottom: 0px;">
+                <li style="margin-left: 18px;">[<font color="#df4f2c">NC243</font>]: Roll numbers ending with an <font color="#df4f2c">ODD</font> digit </li>
+                <li style="margin-left: 18px;">[<font color="#df4f2c">NC244</font>]: Roll numbers ending with an <font color="#df4f2c">EVEN</font> digit </li>
+                <li style="margin-left: 18px;">First class: <font color="#df4f2c">02/01/25 (Thursday)</font></li>
+            </ul>
+        </div>
+        <div class="acs" style="padding-left: 5px;padding-right: 5px;margin-top: 73px;"><div class="vl" style="height: 106px"></div></div>
+        <div class="acs"; style = "width:auto; height: auto"> 
+        <p class="big" style="padding-left:0px; margin-top: 86px; color: #1dabbf;margin-bottom: -2px;"> Schedule </p>
+        <ul type="1" style="padding-left:0px;margin-bottom: 18px;margin-top: 6px;">
+            <li style="margin-left: 18px;"><font color="#df4f2c">Monday</font>: 10:00 - 10:55 AM (Lec)</li>
+            <li style="margin-left: 18px;"><font color="#df4f2c">Wednesday</font>: 8:00 - 9:55 AM (Lec)</li>
+            <li style="margin-left: 18px;"><font color="#df4f2c">Thursday</font>: 10:00 - 10:55 AM (Tut)</li>
+        </ul>
+        </div>
+        <div class="acs" style="padding-left: 5px;padding-right: 5px;margin-top: 73px;"><div class="vl" style="height: 106px"></div></div>
+        <div class="acs"; style = "width:auto; height: auto">
+            <p class="big" style="padding-left:0px; margin-top: 86px; color: #1dabbf;margin-bottom: -11px;"> Exams </p>
+            <ul type="1" style="padding-left:0px;margin-bottom: 10px;">
+                <li style="margin-left: 15px;"><font color="#df4f2c">Class-tests:</font> TBD </li>
+                <li style="margin-left: 15px;"><font color="#df4f2c">Mid-sem:</font> TBD </li>
+                <li style="margin-left: 15px;"><font color="#df4f2c">End-sem:</font> TBD </li>
+            </ul>
+        </div>
+        <div class="acs" style="padding-left: 5px;padding-right: 5px;margin-top: 73px;"><div class="vl" style="height: 106px"></div></div>
+        <div class="acs"; style = "width:auto; height: auto"> 
+            <p class="big" style="padding-left:0px; margin-top: 86px; color: #1dabbf;margin-bottom: -11px;"> Marks Breakup </p>
+            <ul type="1" style="padding-left:0px;margin-bottom: 10px;">
+                <li style="margin-left: 18px;">[<font color="#df4f2c">30%</font>]: Mid semester exam</li>
+                <li style="margin-left: 18px;">[<font color="#df4f2c">50%</font>]: End semester exam</li>
+                <li style="margin-left: 18px;">[<font color="#df4f2c">20%</font>]: Class tests/Attendance</li>
+            </ul>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <p class="big" style="padding-left:0px; margin-top: 0px; font-size: 16px;margin-bottom: 0px;"><font color="#df4f2c"><b>[NOTE]:</b></font> <b><i>Regular tutorials will be conducted in addition to the lectures. All TA contacts are available from <a href="https://moodlecse.iitkgp.ac.in/moodle/login/index.php" target="_blank">CSE Moodle</a>.</i></b></p>
+        <br>
+        <br>
+        <hr>
+        <div class="acs"; style = "width:auto; height: auto"> 
+            <h2 style="margin-top: 30px;margin-bottom: -10px;color: navy;">Policies</h2><br>
+            <p class="big" style="padding-left:0px; margin-top: 10px; margin-bottom: -2px;font-size: 16px;"> 
+            Attending classes is mandatory. If any student's attendance falls below 75% any time after February 2025, s/he will be deregistered from the course.
+            </p>
+        </div>
+        <div class="acs"; style = "width:auto; height: auto"> 
+            <h2 style="margin-top: 40px;margin-bottom: -10px;color: navy;">Books and References</h2><br>
+            <p class="big" style="padding-left:0px; margin-top: 10px; margin-bottom: -2px;font-size: 16px;"> The  textbooks listed below will be followed for lectures. Every student is expected to have access to at least the book by Kohavi & Jha. Copies of slides and other study materials will be periodically uploaded on <a href="https://moodlecse.iitkgp.ac.in/moodle/login/index.php" target="_blank">CSE Moodle</a>, but only for reference purpose and may not cover all the materials that are covered in the lectures.</p>
+
+            <ol type="1" style="padding-left:0px;margin-bottom: 18px;">
+                <li style="margin-left: 18px;"><i><a href="https://www.cambridge.org/core/books/switching-and-finite-automata-theory/DC060308DBE020F34C4BECA8E5897478" target="_blank">Switching and Finite Automata Theory, 3rd Edition, Cambridge University Press.</a> </i> (By Zvi Kohavi and Niraj K. Jha) <b>[Textbook]</b></li>
+                <li style="margin-left: 18px;"> <i><a href="https://www.amazon.in/Contemporary-Logic-Design-Randy-Katz/dp/0201308576" target="_blank">Contemporary Logic Design, 2nd Edition, Pearson Education, 2005.</a></i> (By Randy H. Katz and Gaetano Borriello)</li>
+                <li style="margin-left: 18px;"><i><a href="https://www.amazon.in/Digital-Integrated-Electronics-Herbert-Taub/dp/0070265089" target="_blank">Digital Integrated Electronics, Tata McGraw-Hill, 2017.</a></i> (By Herbert Taub and Donald L. Schilling) </li>
+            </ol>
+        </div>
+		
+    </div>
+</body>
+</html>
