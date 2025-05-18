@@ -1,0 +1,261 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title style="color: black;"> Autumn-2025: CS60065</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1;"/> <!--user-scalable=0; doesn't work-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+    body {
+        background:white;
+    }
+    .vl {
+        border-left: .5px solid #874947;
+    }
+    .content {
+        max-width: 1050px;
+        min-width: 1050px;
+        margin: auto;
+        border-radius: 0px;
+        background: white;
+        padding: 50px;
+    }
+    h1 {margin-top: -30px; color: chocolate; font-family:"Palatino"; font-weight:lighter;}   
+	h2 {font-family:"Palatino"; font-weight:lighter;}
+    h2 {color: #2A3166; font-family:"Palatino"; font-weight:lighter;}
+    h4 {padding-left: 288px; color:#566573; font-family:"Palatino"; font-weight:lighter;}
+    body {background-image: url("bg2.png");}
+	p {text-align: justify; font-family:"Palatino"; line-height: 20px;font-size: 18px;}
+	a {text-decoration:none; color:crimson; font-family:"Palatino";}
+	li {line-height: 1.6; font-family:"Palatino";}
+	ul#menu li{display:inline;}
+	tr.border_bottom td {border-bottom:1pt solid #977D6B;}
+    p.big {line-height: 1.6;}
+    img {display: block;}
+
+    hr
+    {
+        display: block;
+        border: .5px solid #874947;/*#eba63f,#D5DBDB;#2A3166;*/
+        /*width: 100%;*/
+        width: 100%;
+        background-color transaparent;
+        margin-top: -35px;
+        /*margin-left: 156px;
+        margin-right: 10px;*/
+    }
+    div.acs {
+        display:inline-block;
+        vertical-align: top;
+        width:auto;
+        margin-top: -18px;
+    }
+    table, th, td {
+        font-family:"Garamond"; font-weight:lighter;
+        border: 1px solid white;
+        border-collapse: collapse;
+    }
+    th, td {
+        background-color: #EEEE;
+        text-align: center;
+        vertical-align: middle;
+    }
+    </style>
+</head>
+<body link="#004C99" alink="#FF0000">
+    <br><br>
+    <div class="content">
+        <h1 align=center> <font color="navy">CS60065:</font> Cryptography and Network Security  <font color="navy">[L-T-P: 3-1-0]</font> </h1>
+        <!--<p class="Big">    
+            In Autumn 2024-2025, I will be teaching CS 60065: Cryptography and Network Security. 
+        </p>-->
+        
+        <h2 style="margin-top: 30px;color: navy;">Course Objectives</h2><br>
+        
+        <p class="big" style="padding-left:0px; margin-top: -20px; margin-bottom: -2px;font-size: 16px;"> This course introduces the basics of modern cryptography and some related, basic aspects of network security. In terms of topics, we will largely study cryptographic tools for ensuring message confidentiality, integrity and user authentication. If time permits, we will also cover some advanced cryptography, e.g., post-quantum secure cryptosystems and some general tools that allow building privacy preserving or enhancing computation. The course will be mathematical in nature.</p>
+        
+        <h2 style="margin-top: 30px;color: navy;">Pre-requisites</h2><br>
+        <p class="big" style="padding-left:0px; margin-top: -20px; margin-bottom: -2px;font-size: 16px;">
+        The course has some formal prerequisites. Nevertheless, we will also cover (& briefly recap) some mathematical tools. But it would greatly benefit to be acquainted with the topics listed below.<br></p>
+        <p class="big" style="padding-left:0px; margin-top: 10px; margin-bottom: -2px;font-size: 16px;">
+        <b>[For Cryptography]:</b> Discrete Structures, Basics of Algorithm Design and Analysis, and Linear Algebra.<br>
+        <b>[For Network security]:</b> Basic idea of Computer Networks.</p>
+        
+        
+        
+        <!--<div class="acs" style="padding-left: 5px;padding-right: 5px;margin-top: 73px;"><div class="vl" style="height: 166px"></div></div>
+        <div class="acs"; style = "width:auto; height: auto">
+            <p class="big" style="padding-left:0px; margin-top: 85px; color: chocolate;margin-bottom: -2px;"> Exams </p>
+
+            <ul type="1" style="padding-left:0px;margin-bottom: 18px;">
+                <li style="margin-left: 15px;"><font color="#c8102E">Class-test 1:</font> 06/09/24</li>
+                <li style="margin-left: 15px;"><font color="#c8102E">Mid-sem:</font> 23/09/24</li>
+                <li style="margin-left: 15px;"><font color="#c8102E">Class-test 2:</font> 12/11/24</li>
+                <li style="margin-left: 15px;"><font color="#c8102E">End-sem:</font> 22/11/24</li>
+                <li style="margin-left: 15px;"><font color="#2E86C1">PTNs:</font> (13-14)/11/24</li>
+            </ul>
+        </div>-->
+        <!--<div class="acs" style="padding-left: 5px;padding-right: 5px;margin-top: 73px;"><div class="vl" style="height: 166px"></div></div>
+        <div class="acs"; style = "width:auto; height: auto">
+            <p class="big" style="padding-left:0px; margin-top: 85px; color: chocolate;margin-bottom: -2px;"> Teaching Assistant </p>
+
+            <ul type="1" style="padding-left:0px;margin-bottom: 18px;">
+                <li style="margin-left: 15px;">Rounak Saha (20CS30043)</li>
+                <li style="margin-left: 15px;">Email: <br> 
+                    rounaksaha12@gmail.com <br> 
+                    runk20@kgpian.iitkgp.ac.in</li>
+            </ul>
+        </div>-->
+        <!--<div class="acs" style="padding-left: 5px;padding-right: 5px;margin-top: 73px;"><div class="vl" style="height: 166px"></div></div>
+        <div class="acs"; style = "width:auto; height: auto"> 
+            <p class="big" style="padding-left:0px; margin-top: 85px; color: chocolate;margin-bottom: -2px;"> Requirements </p>
+
+            <ol type="1" style="padding-left:0px;margin-bottom: 18px;">
+                <li style="margin-left: 18px;">Teacher's Assessment [<font color="#c8102E">30%</font>] </li>
+                <ul style="padding-left:15px;margin-bottom: auto;">
+                    <li style="margin-left: 18px;">Attendance + Tutorials + Assignments </li>
+                    <li style="margin-left: 18px;">Short Class Test(s) + Presentation (<font color="#2E86C1">PTN</font>)</li>
+                </ul>
+                <li style="margin-left: 18px;">Mid semester exam [<font color="#c8102E">30%</font>]</li>
+                <li style="margin-left: 18px;">End semester exam [<font color="#c8102E">40%</font>]</li>
+            </ol>
+        </div>-->
+        <!--<br>
+        <br>
+        <hr>
+        <p class="big" style="padding-left:0px; margin-top: 0px; font-size: 16px;margin-bottom: 0px;"><font color="red"><b>[NOTE]:</b></font> <b><i>We will post several details (e.g., assignments) frequently throughout the course. Keep an eye on this webpage for the latest updates.</i></b></p>
+        <br>
+        <br>
+        <hr>
+        </div>-->
+        
+        <div class="acs"; style = "width:auto; height: auto"> 
+            <h2 style="margin-top: 40px;margin-bottom: -10px; color: navy;">Policies</h2><br>
+            <p class="big" style="padding-left:0px; margin-top: 10px; color: chocolate;margin-bottom: 0px;"> To be updated.</p>
+            <!--<p class="big" style="padding-left:0px; margin-top: 10px; margin-bottom: -2px;font-size: 16px;">
+            <b>NO</b> collaboration is allowed on tests, exams or assignements. Discussing assignment problems is fine but you <b>MUST</b> write up solutions on your own. You <b>MUST</b> mention names of all the people you discussed the problem(s) with. If you find material that helps you in solving assignments, you <b>MUST</b> mention the source in your writeup. Getting caught in any kind of cheating or dishonesty will result in failing the course.</p>-->
+        <!--<br>
+        <br>
+        <br>
+        <hr>-->
+        </div>
+        
+        <div>
+        <h2 style="margin-top: 20px;margin-bottom: 10px; color: navy;">Resources/Syllabus<!--/Timeline/Tests/Tutorials--></h2><br>
+        <p class="big" style="padding-left:0px; margin-top: -10px; color: chocolate;margin-bottom: 0px;"> To be updated.</p>
+        <!--<p class="big" style="padding-left:0px; margin-top: -20px; margin-bottom: -2px;font-size: 16px;"></p>
+            <table>
+              <font></font>
+              <tr>
+                    <th><font style="color: blue">Topic</font></th>
+                    <th><font style="color: blue">Resource</font></th>
+                    <th><font style="color: blue">Week</font></th>
+                    <th><font style="color:blue">Assignments/Tutorials/Class tests</font></th>
+              </tr>
+              <tr>
+                <td>1. Logistics, Introduction<br> & Course Overview</td>
+                <td> [1], [5], <a style="font-family:Garamond; font-weight:lighter;" href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank">WWW</a> </td>
+                <td> 1 </td>
+                <td> -- </td>
+              </tr>
+              <tr>
+                <td>2. Secret Key Encryption</td>
+                <td>[1], [3] (Sec - 1.2, 1.4.1)</td>
+                <td> 1 </td>
+                <td> -- </td>
+              </tr>
+              <tr>
+                <td>3. Math basics (part-1)<br> + Classical Ciphers</td>
+                <td>[1], [4], [5]</td>
+                <td> 1, 2 </td>
+                <td> <a style="font-family:Garamond; font-weight:lighter; text-decoration: underline;" href="https://drive.google.com/drive/folders/1iztyd1trIJNwwDGLLkGSeYYM3gyPVIsS?usp=drive_link" target="_blank">Assignment 1</a> is out. <br> Due by 11.59 pm, 12/08/2024. <br> All other instructions are <a style="font-family:Garamond; font-weight:lighter;"  href="https://groups.google.com/g/cns-cs60065-aut24" target="_blank">here</a>.<br> <font style="color:forestgreen"> Tutorial 1</font>: Assignment 1 solutions.</td>
+              </tr>
+              <tr>
+                <td>4. Math basics (part-2) + <br> Perfect Secrecy + Entropy</td>
+                <td>[1], [3] (Sec 2), <a style="font-family:Garamond; font-weight:lighter;" href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank">WWW</a><br>Lecture notes: <a style="font-family:Garamond; font-weight:lighter;" href="https://web.stanford.edu/class/ee376a/" target="_blank">Here</a>, <a style="font-family:Garamond; font-weight:lighter;" href="https://www.cl.cam.ac.uk/teaching/0809/InfoTheory/" target="_blank">Here</a> </td>
+                <td>3</td>  
+                  <td> <a style="font-family:Garamond; font-weight:lighter; text-decoration: underline;" href="https://drive.google.com/drive/folders/1AbVZ7vcWJAErDqK2-BFxEiAHrQyykwex?usp=drive_link" target="_blank">Assignment 2</a> is out. <br> Due by 11.59 pm, 20/08/2024. <br> All other instructions are <a style="font-family:Garamond; font-weight:lighter;"  href="https://groups.google.com/g/cns-cs60065-aut24" target="_blank">here</a>.<br> <font style="color:forestgreen">Tutorial 2</font>: Assignment 2 solutions.<br> Problem solving on Math basics. </td>
+              </tr>
+              <tr>
+                <td>5.1 Block Ciphers - Part 1 <br> SPN and Feistel Networks<br> Attacks on SPN: LC, DC</td>
+                <td>[1], [2], [5]</td>
+                <td>4, 5, 6</td>
+                <td> -- </td>
+              </tr>
+              <tr>
+                <td>5.2 Block Ciphers - Part 2 <br> DES and Extensions <br> Math basics (part-3) & AES <br> Modes of Operations</td>
+                 <td> [1], [2], [5] </td>
+                 <td> 6, 7 </td>
+                 <td> -- </td>
+              </tr>
+              <tr>
+                <td>6.1 Cryptographic Hash Functions <br> Iterated Hash Functions, SHA-2<br> Merkle-Damgård Paradigm</td>
+                 <td> [1], [2]</td>
+                 <td> 7, 8 </td>
+                 <td> <font style="color:forestgreen">Class-test 1</font>: 06/09/24.<br> Syllabus: Topics 1-5</td>
+              </tr>
+              <tr>
+                <td>6.2 Sponge Paradigm: SHA-3, Keccak <br> Message Authentication Codes <br> Authenticated Encryption </td>
+                 <td> [1], [2]</td>
+                 <td> 8 </td>
+                 <td> <font style="color:forestgreen">Tutorial 3</font>: Class-test 1 solutions,<br> Problems solving on Block Ciphers, <br>Hash Functions & MACs. </td>
+              </tr>
+              <tr>
+                <td><font style="color: crimson">Mid-Sem Examination</font></td>
+                <td> <font style="color: crimson">--</font> </td>
+                <td> <font style="color: crimson">9, 10</font></td>
+                <td><font style="color: crimson">Date: 23/09/2024<br> Venue: CSE 107, Time: 2-4 pm</font><br>  Midsem solutions discussed. <br>(Discussed on 26/09/2024.) </td>
+              </tr>
+              <tr>
+                <td>--</td>
+                <td>--</td>
+                <td>10, 11</td>  
+                <td><a style="font-family:Garamond; font-weight:lighter; text-decoration: underline;" href="https://drive.google.com/drive/folders/16H5DONqFq0zViz97pzNu-HBLgwVahUwH?usp=drive_link" target="_blank">Assignment 3</a> is out. <br> Due by 11.59 pm, 06/10/2024. <br> All other instructions are <a style="font-family:Garamond; font-weight:lighter;"  href="https://groups.google.com/g/cns-cs60065-aut24" target="_blank">here</a>.
+                </td>
+              </tr>
+              <tr>
+                <td>7.1 Public Key Encryption - Part 1 <br> Math basics (part-4)<br> RSA Encryption, Primality testing</td>
+                <td> [1], [2] </td>
+                <td> 10, 11 </td>
+                <td> -- </td>
+              </tr>
+              <tr>
+                <td><font style="color: crimson">Autumn break for students</font></td>
+                <td> -- </td>
+                <td> 12 </td>
+                <td> <font style="color: crimson">Autumn break for students</font> </td>
+              </tr>
+              <tr>
+                <td>7.1 Public Key Encryption - Part 1 <br> Some Factoring Algorithms <br> Some Attacks on RSA </td>
+                <td> [1], [2] </td>
+                <td> 13 </td>
+                <td> -- </td>
+              </tr>
+              <tr>
+                <td>7.2 Public-Key Encryption (Part-2) <br> Discrete Logarithm Problem <br> ElGamal Encryption <br> Diffie-Hellman Key Exchange <br> Diffie-Hellman Problems <br> Elliptic Curves in Cryptography <br>Glimpse into Functional Encryption</td>
+                 <td> [1], [2], [3], <a style="font-family:Garamond; font-weight:lighter;" href="https://en.wikipedia.org/wiki/World_Wide_Web" target="_blank">WWW</a> </td>
+                 <td> 14 </td>
+                 <td> <a style="font-family:Garamond; font-weight:lighter; text-decoration: underline;" href="https://drive.google.com/file/d/1VwNjoZTIwEKC2kvOApVctiJTa4EDStke/view?usp=drive_link" target="_blank">Assignment 4</a> is out. <br> Due by 11.59 pm, 07/11/2024. <br> All other instructions are <a style="font-family:Garamond; font-weight:lighter;"  href="https://groups.google.com/g/cns-cs60065-aut24" target="_blank">here</a>.</td>
+              </tr>
+              <tr>
+                <td>8. Digital Signature Schemes <br> Role in Blockchains (briefly) <br> RSA, ElGamal signatures <br> Schnorr, (EC)DSA signatures </td>
+                 <td> [1], [2] </td>
+                 <td> 15 </td>
+                 <td> <font style="color:forestgreen">Class-test 2</font>: 12/11/24.<br> Syllabus: Topics 7-8 <br> (Without FE) </td>
+              </tr>
+              <tr>
+                <td>9. Basics of Key Management, <br> Certificates and PKI <br> Overview of TLS Protocol </td>
+                 <td> [2], [5], [6] </td>
+                 <td> 16 </td>
+                 <td> <font style="color:forestgreen"> Tutorial 4</font>: Assignment 4 solutions. </td>
+              </tr>    
+              <tr>
+                <td>10. Quantum-safe Cryptography: <br> Brief Introduction to Lattices & <br> Lattice-based Cryptography </td>
+                 <td> Reference slides: <br> <a style="font-family:Garamond; font-weight:lighter;" href="https://web.eecs.umich.edu/~cpeikert/pubs/slides-qip22-tutorial.pdf" target="_blank">Here</a>, <a style="font-family:Garamond; font-weight:lighter;" href="https://katinkabou.github.io/Presentations/202407_ICO.pdf" target="_blank">Here</a> </td>
+                 <td> 17 </td>
+                 <td> <font style="color:forestgreen"> Tutorial 5</font>: Class-test 2 solutions. <br> (Discussed on 13/11/2024.) <br> <font color="#2E86C1">Presentations</font>: 13/11/24 </td>
+              </tr>
+            </table>-->	
+        </div>
+</body>
+</html>
