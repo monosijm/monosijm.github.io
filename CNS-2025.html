@@ -20,13 +20,13 @@
         background: white;
         padding: 50px;
     }
-    h1 {margin-top: -30px; color: chocolate; font-family:"Palatino"; font-weight:lighter;}   
+    h1 {margin-top: -30px; color: #FFC300; font-family:"Palatino"; font-weight:lighter;}   
 	h2 {font-family:"Palatino"; font-weight:lighter;}
     h2 {color: #2A3166; font-family:"Palatino"; font-weight:lighter;}
     h4 {padding-left: 288px; color:#566573; font-family:"Palatino"; font-weight:lighter;}
     body {background-image: url("bg2.png");}
 	p {text-align: justify; font-family:"Palatino"; line-height: 20px;font-size: 18px;}
-	a {text-decoration:none; color:crimson; font-family:"Palatino";}
+	a {text-decoration:none; color:#031DD8; font-family:"Palatino";}
 	li {line-height: 1.6; font-family:"Palatino";}
 	ul#menu li{display:inline;}
 	tr.border_bottom td {border-bottom:1pt solid #977D6B;}
@@ -65,84 +65,117 @@
 <body link="#004C99" alink="#FF0000">
     <br><br>
     <div class="content">
-        <h1 align=center> <font color="navy">CS60065:</font> Cryptography and Network Security  <font color="navy">[L-T-P: 3-1-0]</font> </h1>
+        <h1 align=center> <font color="#C70039">CS60065:</font> Cryptography and Network Security  <font color="#C70039">[L-T-P: 3-1-0]</font> </h1>
         <!--<p class="Big">    
             In Autumn 2024-2025, I will be teaching CS 60065: Cryptography and Network Security. 
         </p>-->
         
-        <h2 style="margin-top: 30px;color: navy;">Course Objectives</h2><br>
+        <h2 style="margin-top: 30px;color: #C70039;">Course Objectives</h2><br>
         
         <p class="big" style="padding-left:0px; margin-top: -20px; margin-bottom: -2px;font-size: 16px;"> This course introduces the basics of modern cryptography and some related, basic aspects of network security. In terms of topics, we will largely study cryptographic tools for ensuring message confidentiality, integrity and user authentication. If time permits, we will also cover some advanced cryptography, e.g., post-quantum secure cryptosystems and some general tools that allow building privacy preserving or enhancing computation. The course will be mathematical in nature.</p>
         
-        <h2 style="margin-top: 30px;color: navy;">Pre-requisites</h2><br>
+        <h2 style="margin-top: 30px;color: #C70039;">Pre-requisites</h2><br>
         <p class="big" style="padding-left:0px; margin-top: -20px; margin-bottom: -2px;font-size: 16px;">
-        The course has some formal prerequisites. Nevertheless, we will also cover (& briefly recap) some mathematical tools. But it would greatly benefit to be acquainted with the topics listed below.<br></p>
+        The course has some formal prerequisites. So it would greatly benefit to brush up the topics listed below. <br></p>
         <p class="big" style="padding-left:0px; margin-top: 10px; margin-bottom: -2px;font-size: 16px;">
         <b>[For Cryptography]:</b> Discrete Structures, Basics of Algorithm Design and Analysis, and Linear Algebra.<br>
         <b>[For Network security]:</b> Basic idea of Computer Networks.</p>
+        <p class="big" style="padding-left:0px; margin-top: 10px; margin-bottom: -2px;font-size: 16px;">We will also cover some new (& may briefly recap some existing) mathematical tools useful in cryptographic contexts.</p>
         
-        
-        
-        <!--<div class="acs" style="padding-left: 5px;padding-right: 5px;margin-top: 73px;"><div class="vl" style="height: 166px"></div></div>
-        <div class="acs"; style = "width:auto; height: auto">
-            <p class="big" style="padding-left:0px; margin-top: 85px; color: chocolate;margin-bottom: -2px;"> Exams </p>
-
-            <ul type="1" style="padding-left:0px;margin-bottom: 18px;">
-                <li style="margin-left: 15px;"><font color="#c8102E">Class-test 1:</font> 06/09/24</li>
-                <li style="margin-left: 15px;"><font color="#c8102E">Mid-sem:</font> 23/09/24</li>
-                <li style="margin-left: 15px;"><font color="#c8102E">Class-test 2:</font> 12/11/24</li>
-                <li style="margin-left: 15px;"><font color="#c8102E">End-sem:</font> 22/11/24</li>
-                <li style="margin-left: 15px;"><font color="#2E86C1">PTNs:</font> (13-14)/11/24</li>
+        <div class="acs" style="width: auto; height: auto;">
+            <h2 id="Research" style="margin-top: 40px;color: #C70039;">Course Logistics</h2><br>
+            <p class="big" style="padding-left:0px; margin-top: -20px; color: #C70039;margin-bottom: -2px;"> Where and When? </p>
+            <ul style="margin-left:-43px;margin-bottom: 0px;">
+                <li style="margin-left: 18px;">First class is on: <font color="#E74C3C">??/07/25 (??)</font></li>
+                <li style="margin-left: 18px;">Classes are held in <font color="#E74C3C">CSE ???</font> during:</li>
             </ul>
-        </div>-->
-        <!--<div class="acs" style="padding-left: 5px;padding-right: 5px;margin-top: 73px;"><div class="vl" style="height: 166px"></div></div>
+            <ol type="1" style="padding-left:0px;margin-bottom: 18px;margin-top: auto;">
+                <li style="margin-left: 18px;"><!--<font color="#E74C3C">Wednesday</font>: 12:00 - 12:55 PM (Lec/Tut)--></li>
+                <li style="margin-left: 18px;"><!--<font color="#E74C3C">Thursday</font>: 11:00 - 11:55 AM (Lec)--></li>
+                <li style="margin-left: 18px;"><!--<font color="#E74C3C">Friday</font>: 9:00 - 10:55 AM (Lec)--></li>
+            </ol>
+        </div>
+        <div class="acs" style="padding-left: 5px;padding-right: 5px;margin-top: 73px;"><div class="vl" style="height: 166px"></div></div>
         <div class="acs"; style = "width:auto; height: auto">
-            <p class="big" style="padding-left:0px; margin-top: 85px; color: chocolate;margin-bottom: -2px;"> Teaching Assistant </p>
+            <p class="big" style="padding-left:0px; margin-top: 85px; color: #C70039;margin-bottom: -2px;"> Exams </p>
 
             <ul type="1" style="padding-left:0px;margin-bottom: 18px;">
-                <li style="margin-left: 15px;">Rounak Saha (20CS30043)</li>
+                <li style="margin-left: 15px;"><font color="#E74C3C">Class-test 1:</font> --/0-/25</li>
+                <li style="margin-left: 15px;"><font color="#E74C3C">Mid-sem:</font> --/09/25</li>
+                <li style="margin-left: 15px;"><font color="#E74C3C">Class-test 2:</font> --/--/25</li>
+                <li style="margin-left: 15px;"><font color="#E74C3C">End-sem:</font> --/11/25</li>
+                <li style="margin-left: 15px;"><font color="#117A65">PTNs:</font> --/--/25</li>
+            </ul>
+        </div>
+        <div class="acs" style="padding-left: 5px;padding-right: 5px;margin-top: 73px;"><div class="vl" style="height: 166px"></div></div>
+        <div class="acs"; style = "width:auto; height: auto">
+            <p class="big" style="padding-left:0px; margin-top: 85px; color: #C70039;margin-bottom: -2px;"> Teaching Assistant </p>
+
+            <ul type="1" style="padding-left:0px;margin-bottom: 18px;">
+                <li style="margin-left: 15px;"></li>
                 <li style="margin-left: 15px;">Email: <br> 
-                    rounaksaha12@gmail.com <br> 
-                    runk20@kgpian.iitkgp.ac.in</li>
+                    -- <br> 
+                    -- </li>
+                <!--<li style="margin-left: 15px;">Phone: (+91) 6297272095</li>-->
             </ul>
-        </div>-->
-        <!--<div class="acs" style="padding-left: 5px;padding-right: 5px;margin-top: 73px;"><div class="vl" style="height: 166px"></div></div>
+        </div>
+        <div class="acs" style="padding-left: 5px;padding-right: 5px;margin-top: 73px;"><div class="vl" style="height: 166px"></div></div>
         <div class="acs"; style = "width:auto; height: auto"> 
-            <p class="big" style="padding-left:0px; margin-top: 85px; color: chocolate;margin-bottom: -2px;"> Requirements </p>
+            <p class="big" style="padding-left:0px; margin-top: 85px; color: #C70039;margin-bottom: -2px;"> Requirements </p>
 
             <ol type="1" style="padding-left:0px;margin-bottom: 18px;">
-                <li style="margin-left: 18px;">Teacher's Assessment [<font color="#c8102E">30%</font>] </li>
+                <li style="margin-left: 18px;">Teacher's Assessment [<font color="#E74C3C">30%</font>] </li>
                 <ul style="padding-left:15px;margin-bottom: auto;">
-                    <li style="margin-left: 18px;">Attendance + Tutorials + Assignments </li>
-                    <li style="margin-left: 18px;">Short Class Test(s) + Presentation (<font color="#2E86C1">PTN</font>)</li>
+                    <li style="margin-left: 18px;">Class Attendance [<font color="#E74C3C">??%</font>] + Tutorials [<font color="#c8102E">??%</font>] </li>
+                    <li style="margin-left: 18px;">Short Class Test(s) [<font color="#E74C3C">??%</font>] + Presentation (<font color="#117A65">PTN</font>) [<font color="#E74C3C">??%</font>]</li>
                 </ul>
-                <li style="margin-left: 18px;">Mid semester exam [<font color="#c8102E">30%</font>]</li>
-                <li style="margin-left: 18px;">End semester exam [<font color="#c8102E">40%</font>]</li>
+                <li style="margin-left: 18px;">Mid semester exam [<font color="#E74C3C">30%</font>]</li>
+                <li style="margin-left: 18px;">End semester exam [<font color="#E74C3C">40%</font>]</li>
             </ol>
-        </div>-->
-        <!--<br>
+        </div>
+        <br>
         <br>
         <hr>
-        <p class="big" style="padding-left:0px; margin-top: 0px; font-size: 16px;margin-bottom: 0px;"><font color="red"><b>[NOTE]:</b></font> <b><i>We will post several details (e.g., assignments) frequently throughout the course. Keep an eye on this webpage for the latest updates.</i></b></p>
+        <p class="big" style="padding-left:0px; margin-top: 0px; font-size: 16px;margin-bottom: 0px;"><font color="#3606AD"><b>[NOTE]:</b></font> <b><i>We will post several details frequently throughout the course. Keep an eye on this webpage for the latest updates.</i></b></p>
+        <br>
+        <br>
+        <hr>
+        
+        <!--<p class="big" style="padding-left:0px; margin-top: 0px; font-size: 16px;margin-bottom: 0px;"><font color="red"><b>[NOTE]:</b></font> <b><i>We will post several details (e.g., assignments) frequently throughout the course. Keep an eye on this webpage for the latest updates.</i></b></p>
         <br>
         <br>
         <hr>
         </div>-->
         
         <div class="acs"; style = "width:auto; height: auto"> 
-            <h2 style="margin-top: 40px;margin-bottom: -10px; color: navy;">Policies</h2><br>
-            <p class="big" style="padding-left:0px; margin-top: 10px; color: chocolate;margin-bottom: 0px;"> To be updated.</p>
-            <!--<p class="big" style="padding-left:0px; margin-top: 10px; margin-bottom: -2px;font-size: 16px;">
-            <b>NO</b> collaboration is allowed on tests, exams or assignements. Discussing assignment problems is fine but you <b>MUST</b> write up solutions on your own. You <b>MUST</b> mention names of all the people you discussed the problem(s) with. If you find material that helps you in solving assignments, you <b>MUST</b> mention the source in your writeup. Getting caught in any kind of cheating or dishonesty will result in failing the course.</p>-->
+            <h2 style="margin-top: 40px;margin-bottom: -10px; color: #C70039;">Other Instructions & Policies</h2><br>
+            <p class="big" style="padding-left:0px; margin-top: 10px; margin-bottom: -2px;font-size: 16px;">
+            Tutorials may be interactive, where students will be asked to demonstrate solutions to problems during the sessions. There will also be presentation sessions carrying marks. Depending on  class strength, each (or a small group of) student(s) will be asked to present a topic related to, but uncovered in the syllabus. Getting caught in any kind of malpractice during tests, exams or tutorials will result in failing the course.</p>
         <!--<br>
         <br>
         <br>
         <hr>-->
         </div>
         
+        <div class="acs"; style = "width:auto; height: auto"> 
+            <h2 style="margin-top: 40px;margin-bottom: -10px;color: #C70039;">Resources</h2><br>
+            <!--<p class="big" style="padding-left:0px; margin-top: 30px; color: chocolate;margin-bottom: -2px;"> Resources:</p>-->
+            <p class="big" style="padding-left:0px; margin-top: 10px; margin-bottom: -2px;font-size: 16px;"> We will mostly follow the texts mentioned below. Slides (& any other extra material) used in classes will be shared <a href="https://groups.google.com/g/cns-cs60065-aut25" target="_blank">here</a> in time. <!--Any extra material, that we may use, will be shared on this webpage in time.--></p>
+
+            <ol type="1" style="padding-left:0px;margin-bottom: 18px;">
+                <li style="margin-left: 18px;"><i><a href="https://cs.uwaterloo.ca/~dstinson/CTAP4.html" target="_blank">Cryptography: Theory and Practice</a></i> (By Douglas R. Stinson, Maura B. Patterson) [<b>Textbook</b>]</li>
+                <li style="margin-left: 18px;"><i><a href="https://link.springer.com/book/10.1007/978-3-662-69007-9" target="_blank">Understanding Cryptography: A Textbook for Students and Practitioners</a></i> (By Christof Paar, Jan Pelzl, Tim G&uuml;neysu) [<b>Reference</b>]</li>
+                <li style="margin-left: 18px;"><i><a href="https://www.cs.umd.edu/~jkatz/imc.html" target="_blank">Introduction to Modern Cryptography</a></i> (By Jonathan Katz, Yehuda Lindell) [<b>Reference</b>]</li>
+                <li style="margin-left: 18px;"><i><a href="https://cacr.uwaterloo.ca/hac/" target="_blank">Handbook of Applied Cryptography</a></i> (By Alfred J. Menezes, Paul C. van Oorschot, Scott A. Vanstone) [<b>Reference</b>]</li>
+                <li style="margin-left: 18px;"><i><a href="http://williamstallings.com/Cryptography/" target="_blank">Cryptography and Network Security</a></i> (By William Stallings) [<b>Reference</b>]</li>
+                <li style="margin-left: 18px;"><i><a href="https://textbook.cs161.org/" target="_blank">Computer Security</a></i> (By David Wagner, Nicholas Weaver, Peyrin Kao, Fuzail Shakir, Andrew Law, Nicholas Ngai) [<b>Reference</b>]</li>
+            </ol>
+        </div>
+        
+        
         <div>
-        <h2 style="margin-top: 20px;margin-bottom: 10px; color: navy;">Resources/Syllabus<!--/Timeline/Tests/Tutorials--></h2><br>
-        <p class="big" style="padding-left:0px; margin-top: -10px; color: chocolate;margin-bottom: 0px;"> To be updated.</p>
+        <h2 style="margin-top: 20px;margin-bottom: 10px; color: #C70039;"> Syllabus/Timeline/Tests/Tutorials</h2><br>
+        <p class="big" style="padding-left:0px; margin-top: -10px; color: #C70039;margin-bottom: 0px;"> To be updated.</p>
         <!--<p class="big" style="padding-left:0px; margin-top: -20px; margin-bottom: -2px;font-size: 16px;"></p>
             <table>
               <font></font>
